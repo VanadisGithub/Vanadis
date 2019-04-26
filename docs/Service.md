@@ -317,5 +317,3 @@
 * Solr
 ### 文件存储
 * OSS（阿里）
-
-*XMind: ZEN - Trial Version*
