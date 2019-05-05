@@ -11,6 +11,7 @@
 </head>
 <body>
 <div id="app"></div>
+
 <script>
     window.$docsify = {
         name: '大道至简',
@@ -18,15 +19,16 @@
         coverpage: true,// 自定义首页 _coverpage.md
         loadSidebar: true,// 侧边栏
         subMaxLevel: 5,
-        themeColor: '#000000',
-        search: 'auto'// 默认值
-
-
+        auto2top: true,
+        notFoundPage: true,
+        // themeColor: '#000000',
+        search: 'auto'
     }
 </script>
 
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
 
 </body>
 </html>

@@ -1,8 +1,5 @@
-* 语言
-    - [Java](Java.md)
+* [Java](Java.md)
 * [Service](Service.md)
 * D/A
-* [Service](Service.md)
-* OS
-    - linux
+* Linux
 * Tools
