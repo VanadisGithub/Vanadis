@@ -1,5 +1,6 @@
+* [D/A](DA.md)
 * [Java](Java.md)
 * [Service](Service.md)
-* D/A
-* Linux
-* Tools
+* [Distributed](Distributed.md)
+* [Linux](Linux.md)
+* [Ohters](Ohters.md)
