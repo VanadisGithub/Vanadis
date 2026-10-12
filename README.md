@@ -1,1 +1,1 @@
-大道至简
+Less is more
