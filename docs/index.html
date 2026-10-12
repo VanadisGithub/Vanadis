@@ -1,35 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>Less is More</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="description" content="Description">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-    <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#060c17">
+<meta name="description" content="Vanadis 的个人主页。Less is More，在自己的轨道，探索生活的无限。">
+<title>Vanadis · Less is More</title>
+<link rel="icon" href="./favicon.ico">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500&display=swap');
+:root{color-scheme:dark;--white:#eef4fc;--muted:#9ba9bb;--line:rgba(194,218,247,.17);--accent:#a7d9ee}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#060c17;color:var(--white);font-family:Manrope,'Noto Sans SC',sans-serif;min-width:900px}.sky{position:fixed;inset:0;background:url('./assets/starfield.jpg') center/cover no-repeat;z-index:-2}.sky:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(3,8,17,.78),rgba(3,8,17,.20) 75%),linear-gradient(0deg,rgba(3,8,17,.88),transparent 45%)}a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:7px}header{height:116px;display:flex;align-items:center;justify-content:space-between;margin:0 7%;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:13px;font-weight:700;letter-spacing:.03em}.mark{width:26px;height:26px;display:grid;place-items:center;color:var(--accent);font-size:28px;font-weight:400}.nav{display:flex;gap:36px;font-size:12px;letter-spacing:.11em;color:var(--muted)}.nav a{transition:color .2s}.nav a:hover{color:#fff}.nav .external{color:var(--white)}main{margin:0 7%}.hero{min-height:calc(100vh - 190px);display:flex;align-items:center;position:relative}.intro{padding:65px 0 105px;max-width:780px;animation:arrive 1.2s both}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--accent);font-size:10px;letter-spacing:.26em;font-weight:600}.eyebrow:before{content:'';width:27px;height:1px;background:var(--accent)}h1{font-size:clamp(84px,9.5vw,150px);letter-spacing:-.065em;line-height:1.12;margin:25px 0 30px;font-weight:500}.dot{color:var(--accent)}.tagline{font-size:25px;font-weight:300;letter-spacing:.2em;margin:0 0 19px}.description{color:var(--muted);font-size:13px;line-height:2.1;letter-spacing:.08em;margin:0}.actions{display:flex;align-items:center;gap:30px;margin-top:43px;font-size:12px}.primary{display:flex;align-items:center;gap:38px;padding:15px 23px;border:1px solid rgba(181,216,239,.4);background:rgba(133,181,215,.06);border-radius:3px;transition:background .2s,border-color .2s}.primary:hover{background:rgba(133,181,215,.18);border-color:var(--accent)}.secondary{color:var(--muted);padding:12px 0}.secondary:hover{color:var(--white)}.arrow{font-size:17px;color:var(--accent)}.orbit-label{position:absolute;right:0;bottom:88px;display:flex;gap:16px;align-items:center;color:#91a9c1;font-size:9px;letter-spacing:.22em;writing-mode:vertical-rl}.orbit-label:before{content:'';height:66px;width:1px;background:linear-gradient(transparent,#789ab8)}.bottom{height:74px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:10px;letter-spacing:.13em}.bottom span:first-child{display:flex;align-items:center;gap:10px}.status{height:5px;width:5px;border-radius:50%;background:#b3d7df;box-shadow:0 0 12px #8bc6df}.about{padding:110px 0 120px;border-top:1px solid var(--line);display:grid;grid-template-columns:1fr 1.5fr;gap:70px}.section-label{font-size:10px;letter-spacing:.23em;color:var(--accent)}.about h2{font-size:36px;line-height:1.6;font-weight:300;letter-spacing:.1em;margin:0 0 25px}.about p{font-size:14px;line-height:2.2;color:var(--muted);letter-spacing:.06em;max-width:570px}.signature{font-size:12px;letter-spacing:.25em;margin-top:36px;color:var(--accent)}footer{padding:26px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;color:var(--muted);font-size:10px;letter-spacing:.12em}@keyframes arrive{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.intro{animation:none}}
+</style>
 </head>
 <body>
-<div id="app"></div>
-
-<script>
-    window.$docsify = {
-        name: 'Less is More',
-        repo: '',
-        coverpage: true,// 自定义首页 _coverpage.md
-        loadSidebar: true,// 侧边栏
-        subMaxLevel: 5,
-        auto2top: true,
-        notFoundPage: true,
-        // themeColor: '#000000',
-        search: 'auto'
-    }
-</script>
-
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-<script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-<script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
-
+<div class="sky" aria-hidden="true"></div>
+<header><a class="brand" href="#home" aria-label="Vanadis 首页"><span class="mark" aria-hidden="true">✦</span>VANADIS</a><nav class="nav" aria-label="主导航"><a href="#home">首页</a><a href="#about">关于我</a><a class="external" href="https://github.com/vanadisgithub" target="_blank" rel="noopener noreferrer">GITHUB ↗</a></nav></header>
+<main>
+<section id="home" class="hero" aria-labelledby="name"><div class="intro"><div class="eyebrow">A LITTLE SPACE OF MY OWN</div><h1 id="name">Vanadis<span class="dot">.</span></h1><p class="tagline">大道至简，自在如风。</p><p class="description">在自己的轨道，探索生活的无限。<br>欢迎来到我的小小宇宙。</p><div class="actions"><a class="primary" href="#about">认识我 <span class="arrow" aria-hidden="true">↗</span></a><a class="secondary" href="https://github.com/vanadisgithub" target="_blank" rel="noopener noreferrer">在 GitHub 找到我 ↗</a></div></div><div class="orbit-label" aria-hidden="true">SOMEWHERE UNDER THE STARS</div></section>
+<div class="bottom"><span><i class="status" aria-hidden="true"></i> 保持好奇，热爱生活</span><span>LESS IS MORE</span><a href="#about" aria-label="向下浏览关于我">SCROLL TO EXPLORE ↓</a></div>
+<section class="about" id="about" aria-labelledby="about-title"><div class="section-label">01 / ABOUT ME</div><div><h2 id="about-title">简单一点，<br>离自己近一点。</h2><p>这里是 Vanadis 的个人角落。<br>不必匆忙，也不必复杂。留一点时间给生活，留一点空间给想象，在平凡的日子里发现微小的美好。</p><div class="signature">LESS IS MORE · 大道至简</div></div></section>
+<footer><span>© <span id="year">2026</span> VANADIS</span><span>MADE OF LITTLE MOMENTS & STARDUST</span><a href="#home">回到顶部 ↑</a></footer>
+</main><script>document.getElementById('year').textContent=new Date().getFullYear();</script>
 </body>
 </html>
